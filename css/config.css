@@ -1,0 +1,57 @@
+body {
+     background-image: url("https://previews.123rf.com/images/bybochka/bybochka1510/bybochka151000105/46363508-modelo-incons%C3%BAtil-de-veterinaria-cl%C3%ADnica-veterinaria-dise%C3%B1o-plano-fondo-rojo-ilustraci%C3%B3n-vectorial.jpg?fj=1");
+   
+}
+
+
+.tittle{
+    position: relative;
+    text-shadow: #000 2px 2px 0px;
+    display: block;
+    border:solid #888;
+    border-radius: 20px;
+    width: 100%;
+    left: 0%;
+    color: #aaa;
+    text-align: center;
+    font-size: 24px;
+}
+.container-about{
+    border: solid; #666;
+}
+.about h2{
+text-align: center;
+font-size: 28px;
+color: #aaa;
+text-shadow: #000 2px 2px 0px }
+.about p {
+    color: #ccc;
+    text-shadow: #000 2px 2px 0px;
+}
+.container-service{
+    border: solid; #666;
+}
+.service h2{
+text-align: center;
+font-size: 28px;
+color: #aaa;
+text-shadow: #000 2px 2px 0px }
+.service p {
+    color: #ccc;
+    text-shadow: #000 2px 2px 0px;}
+
+.container-contact{
+    border: solid; #666;
+}
+.information{
+    text-align: center;
+    font-size: 18px;
+}
+.contact h3, h6{
+text-align: center;
+font-size: 28px;
+color: #aaa;
+text-shadow: #000 2px 2px 0px }
+.contact p {
+    color: #ccc;
+    text-shadow: #000 2px 0px;}
