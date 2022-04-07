@@ -1,90 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link style="css" href="">
-	<link style="text" href="">
-	<link style="boostrap" href="">
+	<link href="css/config.css" rel="stylesheet">
+	<link rel="icon"  href="imagenes\dog.ico">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css\font-awesome\css\font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Newsreader:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Domine&family=Lobster&family=Newsreader:wght@300&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta name="autor" content="Nahuel Pierini">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>Veterinaria Cuki</title>
 </head>
 <body>
+	<div class="titulo"><h1>Veterinaria Cuki</h1></div>
 	<div class="container-menu">
 	<header class="menu">
-		<nav>
-			<lu>
-				<li>Nosotros</li>
-				<li>Servicios</li>
-				<li>contacto</li>
-			</lu>
-		</nav>
+		<div class="row  justify-content-center">
+			<div class="col-sm-3">
+				<nav>
+					<lu>
+						<li class="menu-about"> <a href="#about">Nosotros</a></li>
+						<li class="menu-service"> <a href="#service">Servicios</a></li>
+						<li class="menu-contact"> <a href="#container-contact">contacto</a></li>
+					</lu>
+				</nav>
+			</div>		
+		</div>		
 	</div>
 	</header>
 <div class="container-about">
-	<div class="about">
+	<div id="about">
 		<h2> Nosotros </h2>
-		<p>
+		<div class="about-txt">
+			<p>
 		 En la Veterinaria Cuki contamos con un equipo de trabajo altamente idóneo
 para atender a nuestros mejores amigos. Conjugamos las mejores instalaciones
 para la atención y el cuidado de sus mascotas, con los profesionales más
 capacitados en la asistencia veterinaria. La salud de nuestras mascotas es tan
 importante como la de cualquier integrante de la familia.: Atención las 24 hs., los
 365 días del año
-		</p>
+			</p>
+		</div>
 	</div>
 
 </div>
 <div class="container-service" >
-	<div class="service">
+	<div id="service">
 		<h2>Nuestros Servicios</h2>
-		<div class="service-consul">
-			<img src="" lang="">
-			<p>3 Consultorios de atención simultáneas para revisiones generales,
+		<div class="row justify-content-center aling-items-center">
+			<div class="col-sm-4">
+				<div class="service-consul">
+					<img class="img-1" src="imagenes\atencion.webp" lang="">
+					<p>3 Consultorios de atención simultáneas para revisiones generales,
 diagnóstico y controles</p>
 
-		</div>
-		<div class="service-consult">
-			<img src="" lang="">
-			<p>Consultas y vacunación a domicilio, el mismo servicio con la comodidad de
+				</div>
+			</div>
+				<div class="col-sm-4">
+				<div class="service-consul-2">
+					<img class="img-2" src="imagenes\consultorio.png" lang="consultorio-veterinario">
+					<p>Consultas y vacunación a domicilio, el mismo servicio con la comodidad de
 				no trasladar a la mascota hacia nuestra clínica</p>
 
-		</div>
-		<div class="service-element">
-			<img src="" lang="">
-			<p>Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en
+				</div>
+			</div>
+				<div class="col-sm-4">
+				<div class="service-element">
+					<img class="img-3" src="imagenes\equipo.png" lang="">
+					<p>Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en
 				Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.</p>
-
+			</div>
+		
+		</div>
 		</div>
 	</div>
 
 
 </div>
 <footer>
-	<div class="container-contact">
-		<div class="contact">
-			<div class="information">
-				<h3>Contactenos</h3>
-				<p> 
-					Veterinaria
-					Cuki - Luis Agote 250 Bº Mirador<br>
-				tel: 34254677</p>
-			</div>
-			<div class="social">
-				<h6>redes sociales</h6>
-				<div class="social-link">
-					<lu>
-						<li>facebook</li>
-						<li>instagram</li>
-						<li>twiter</li>
-						<li>likelink</li>
-					</lu>
+<div id="container-contact" >
+	<h4>Contactenos</h4>
+	<div class="row  justify-content-center">
+		<div class="col-sm-3">
+			<div class="contact-information" >
+				
+				<div class="information" >
+					<p><b>Veterinaria
+Cuki<br> - Luis Agote 250 Bº Mirador</b></p>
 				</div>
 			</div>
 		</div>
-
-
+		<div class="col-sm-4" >
+			
+			<div class="contact-social">							
+						<div class="social">							
+							<ul class="facebook" > <a href="https://es-la.facebook.com"><button><img src="imagenes\face.ico"></button></a></ul>
+							<ul class="whatsapp" > <a href="https://web.whatsapp.com"><button><img src="imagenes\wh.ico"></button></a></ul>
+							<ul class="instagram" > <a href="https://www.instagram.com"><button><img src="imagenes\insta.ico"></button></a></ul>
+							<ul class="twitter" > <a href="https://twitter.com/?lang=es"><button><img src="imagenes\tw.ico"></button></a></ul>	
+							
+						</div>
+			</div>
 		</div>
+	</div>
+</div>				
 </footer>
 </body>
 </html>

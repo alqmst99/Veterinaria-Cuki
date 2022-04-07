@@ -1,10 +1,22 @@
 body {
-     background-image: url("https://previews.123rf.com/images/bybochka/bybochka1510/bybochka151000105/46363508-modelo-incons%C3%BAtil-de-veterinaria-cl%C3%ADnica-veterinaria-dise%C3%B1o-plano-fondo-rojo-ilustraci%C3%B3n-vectorial.jpg?fj=1");
-   
+     background-image: url("https://thumbs.dreamstime.com/z/dise%C3%B1o-minimalista-sin-fisuras-con-s%C3%ADmbolos-para-el-cuidado-de-mascotas-gatos-y-perros-lindos-refugio-animal-veterinario-textura-205171244.jpg");
+   max-width: 100%;
+   max-height: 100%;
+   overflow: inherit;
+}
+.menu-about, .menu-service, .menu-contact{
+    display: inline-block;
+    background-color: #432;
+    margin: .1px;
+    padding: 2px;
+    text-align: center;
+    left: 50%;
+    border: solid #000 10px;
+
+
 }
 
-
-.tittle{
+.titulo{
     position: relative;
     text-shadow: #000 2px 2px 0px;
     display: block;
@@ -17,41 +29,144 @@ body {
     font-size: 24px;
 }
 .container-about{
+   
     border: solid; #666;
+    text-align: center;
 }
-.about h2{
-text-align: center;
-font-size: 28px;
-color: #aaa;
-text-shadow: #000 2px 2px 0px }
-.about p {
-    color: #ccc;
-    text-shadow: #000 2px 2px 0px;
+
+.about-txt{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+   
 }
 .container-service{
     border: solid; #666;
 }
-.service h2{
-text-align: center;
-font-size: 28px;
-color: #aaa;
-text-shadow: #000 2px 2px 0px }
-.service p {
-    color: #ccc;
-    text-shadow: #000 2px 2px 0px;}
 
-.container-contact{
+
+#container-contact{
+    margin-bottom: 50px;
     border: solid; #666;
 }
-.information{
-    text-align: center;
-    font-size: 18px;
+
+.service-consul{
+    border: double #000 10px ;
+    margin: 5px;
 }
-.contact h3, h6{
+.service-consul-2{
+    border: double #000 10px ;
+}
+.service-element{
+    left: 100px;
+    border: double #000 10px ;
+}
+.img-1, .img-2, .img-3 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+ button{
+    left: 50%;
+    
+    background-color: transparent;
+    border: none;
+
+ }
+
+ .social img{
+    border: solid #000;
+    max-width: 25px;
+    max-height: 25px;
+ }
+ button :hover{
+   
+    max-height: 100px;
+    max-width: 100px;
+    transition-delay: 1;
+ }
+ h1, h2, h4{
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
 text-align: center;
-font-size: 28px;
-color: #aaa;
-text-shadow: #000 2px 2px 0px }
-.contact p {
-    color: #ccc;
-    text-shadow: #000 2px 0px;}
+
+ }
+ .information p{
+    font-size: 24px;
+    
+ }
+
+p{
+    font-size: 30;
+    font-family: 'Domine', serif;
+}
+
+.service-consul:hover{
+    max-height: 150%;
+    max-width: 150%;
+    transition-delay: 1;
+    background-color: #555;
+    font-size: 20px;
+    color: #fff;
+}
+
+.service-consul-2:hover{
+    max-height: 150%;
+    max-width: 150%;
+    transition-delay: 1;
+    background-color: #555;
+    font-size: 20px;
+    color: #fff;
+} 
+.service-element:hover{
+    max-height:150%;
+    max-width: 150%;
+    transition-delay: 1;
+    background-color: #555;
+    font-size: 20px;
+    color: #fff;
+}
+.container-about:hover{
+    max-height: 150%;
+    max-width: 150%;
+    transition-delay: 1;
+    background-color: #555;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: none;
+}
+.menu-about:hover{
+    background-color: #480;
+    max-width: 150px;
+    max-height: 150px;
+    font-size: 30px;
+}
+.menu-service:hover{
+    background-color: #480;
+    max-width: 150px;
+    max-height: 150px;
+    font-size: 30px;
+}
+.menu-contact:hover{
+    background-color: #480;
+    max-width: 150px;
+    max-height: 150px;
+    font-size: 30px;
+}
+.facebook{
+    display: inline-block;
+margin: .5px;
+}
+.instagram{
+    display: inline-block;
+margin: .5px;
+}
+.twitter{
+    display: inline-block;
+margin: .5px;
+}
+.whatsapp{
+    display: inline-block;
+margin: .5px;
+}
