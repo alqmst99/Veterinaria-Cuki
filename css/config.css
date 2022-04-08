@@ -6,13 +6,15 @@ body {
 }
 .menu-about, .menu-service, .menu-contact{
     display: inline-block;
+    left: 100%;
+    position: relative;
     background-color: #432;
-    margin: .1px;
-    padding: 2px;
+    margin: 0px;
+    padding: 10px;
     text-align: center;
     left: 50%;
-    border: solid #000 10px;
-
+    border: solid #000 2px;
+    border-radius: 30%;
 
 }
 
@@ -20,17 +22,17 @@ body {
     position: relative;
     text-shadow: #000 2px 2px 0px;
     display: block;
-    border:solid #888;
+
     border-radius: 20px;
     width: 100%;
     left: 0%;
-    color: #aaa;
+    color: #fff;
     text-align: center;
     font-size: 24px;
 }
 .container-about{
-   
-    border: solid; #666;
+    border-bottom: solid; #666;
+    border-top: solid; #666;
     text-align: center;
 }
 
@@ -42,24 +44,25 @@ body {
 }
 .container-service{
     border: solid; #666;
+
 }
 
 
 #container-contact{
     margin-bottom: 50px;
-    border: solid; #666;
+    border-top: solid; #666;
 }
 
 .service-consul{
-    border: double #000 10px ;
-    margin: 5px;
+    border: solid; #000 10px ;
+   
 }
 .service-consul-2{
-    border: double #000 10px ;
+    border: solid; #000 10px ;
 }
 .service-element{
     left: 100px;
-    border: double #000 10px ;
+    border: solid; #000 10px ;
 }
 .img-1, .img-2, .img-3 {
     max-height: 100%;
@@ -69,31 +72,36 @@ body {
 
  button{
     left: 50%;
-    
+    margin: 0px;
     background-color: transparent;
     border: none;
 
  }
 
  .social img{
-    border: solid #000;
+    
     max-width: 25px;
     max-height: 25px;
  }
  button :hover{
    
-    max-height: 100px;
-    max-width: 100px;
-    transition-delay: 1;
+    max-height: 50px;
+    max-width: 50px;
+    transition-delay: .05;
  }
  h1, h2, h4{
     font-family: 'Lobster', cursive;
     font-size: 24px;
 text-align: center;
+  background-color: #aaa;
+    opacity: 90%;
 
  }
  .information p{
     font-size: 24px;
+    color: #fff;
+    background-color: #aaa;
+    opacity: 90%;
     
  }
 
@@ -105,7 +113,7 @@ p{
 .service-consul:hover{
     max-height: 150%;
     max-width: 150%;
-    transition-delay: 1;
+    transition-delay: .1;
     background-color: #555;
     font-size: 20px;
     color: #fff;
@@ -114,7 +122,7 @@ p{
 .service-consul-2:hover{
     max-height: 150%;
     max-width: 150%;
-    transition-delay: 1;
+    transition-delay: 0.1;
     background-color: #555;
     font-size: 20px;
     color: #fff;
